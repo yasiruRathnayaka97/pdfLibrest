@@ -4,8 +4,7 @@
   "description": "Product for intensive and sophisticated search",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js,
-    "test": "test"
+    "start": "node index.js
   },
   "author": "yasiru",
   "license": "ISC",
