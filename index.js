@@ -64,7 +64,7 @@ app.use('/PDF-Library/Account',accRoute);
 app.use('/PDF-Library/PDF',pdfRoute);
 app.use('/PDF-Library/Searcher',searchRoute);
 app.use('/PDF-Library/History',historyRoute);
-server.listen(process.env.SERVER_PORT||process.env.PORT);
+server.listen(process.env.SERVER_PORT);
 io.on('connection', (socket)=> {
  
   socket.on('notification_response', async (status,_jwt,email,pdfID) => {
